@@ -5,15 +5,15 @@
 
 ## Packages in the TidyConsultant universe
 
--   [validata](https://harrison4192.github.io/validata/)
+- [validata](https://harrison4192.github.io/validata/)
 
--   [framecleaner](https://harrison4192.github.io/framecleaner/)
+- [framecleaner](https://harrison4192.github.io/framecleaner/)
 
--   [tidybins](https://harrison4192.github.io/tidybins/)
+- [tidybins](https://harrison4192.github.io/tidybins/)
 
--   [presenter](https://harrison4192.github.io/presenter/)
+- [presenter](https://harrison4192.github.io/presenter/)
 
--   [autostats](https://harrison4192.github.io/autostats/)
+- [autostats](https://harrison4192.github.io/autostats/)
 
 Loading `TidyConsultant` installs and attaches all of these packages at
 once.
@@ -43,10 +43,33 @@ provide useful functions for data scientists of any industry.
 
 ------------------------------------------------------------------------
 
-![Marie Kondo, reknowned
-tidier](https://media.giphy.com/media/J2ZMQ2SENLxSSzr3uD/giphy.gif)
+<figure>
+<img src="https://media.giphy.com/media/J2ZMQ2SENLxSSzr3uD/giphy.gif"
+alt="Marie Kondo, reknowned tidier" />
+<figcaption aria-hidden="true">Marie Kondo, reknowned
+tidier</figcaption>
+</figure>
 
-*Marie Kondo, reknowned tidier*
+# Packages Overview
+
+`validata`: understand the properties of a data frame. Which columns
+make the data frame distinct? Do 2 columns have a 1-1 mapping or 1-many
+mapping between values? What is overlap of unique values between 2
+columns? Get quick summary of \# unique, missing values, and a variety
+of properties of numeric columns.
+
+`framecleaner`: simplifies common dplyr actions directly on a dataframe:
+automated type coercion, dealing with NAs, padding characters, creating
+dummies, importing files
+
+`tidybins`: unified interface to creating and summarizing bins directly
+in a data frame
+
+`presenter`: MS excel and powerpoint compatible output, with automated
+naming and formatting
+
+`autostats`: simplified formula manipulation and modeling. Designed for
+quick exploratory analysis and visualization.
 
 ## Installation and Loading
 
