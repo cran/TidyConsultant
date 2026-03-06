@@ -64,12 +64,12 @@ insurance1 %>%
 charges_form
 
 ## ----message=FALSE, warning=FALSE, eval=FALSE---------------------------------
-#  insurance1 %>%
-#    auto_variable_contributions(formula = charges_form)
+# insurance1 %>%
+#   auto_variable_contributions(formula = charges_form)
 
 ## ----message=FALSE, warning=FALSE, eval=FALSE---------------------------------
-#  insurance1 %>%
-#    auto_model_accuracy(formula = charges_form, include_linear = T)
+# insurance1 %>%
+#   auto_model_accuracy(formula = charges_form, include_linear = T)
 
 ## -----------------------------------------------------------------------------
 insurance1 %>% 

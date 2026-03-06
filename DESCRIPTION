@@ -1,7 +1,7 @@
 Package: TidyConsultant
 Type: Package
 Title: Tidy Consultant Universe
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: 
     person(given = "Harrison",
            family = "Tietze",
@@ -12,7 +12,7 @@ Description: Loads the 5 packages in the Tidy Consultant Universe. This collecti
     data analysis, or quantitative consulting. The functions in these packages range from data cleaning, data validation, data binning, statistical modeling, and file exporting.  
 License: MIT + file LICENSE
 Encoding: UTF-8
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.3
 URL: https://harrison4192.github.io/TidyConsultant/,
         https://github.com/Harrison4192/TidyConsultant
 BugReports: https://github.com/Harrison4192/TidyConsultant/issues
@@ -24,7 +24,7 @@ Suggests: rmarkdown, knitr, yardstick, ggstance, broom.mixed, EIX,
         tidyverse, DiagrammeR
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2024-06-06 23:11:04 UTC; harrisontietze
+Packaged: 2026-03-06 00:44:27 UTC; harrisontietze
 Author: Harrison Tietze [aut, cre]
 Repository: CRAN
-Date/Publication: 2024-06-07 14:40:16 UTC
+Date/Publication: 2026-03-06 07:50:06 UTC
